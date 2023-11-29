@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo
+  description: A demo project for importing into backstage.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: decisions
+  tags:
+    - typescript
+spec:
+  type: service
+  lifecycle: experimental
+  owner: demoorg
+  system: internal-tooling
